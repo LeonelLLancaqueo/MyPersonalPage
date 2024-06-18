@@ -1,0 +1,12 @@
+
+
+.footer-section{
+    width: 100%;
+    align-items: center;
+    background-color: darkslategrey;
+    padding: 40px 0px;
+}
+
+.footer-section h1{
+    font-size: 20px;
+}

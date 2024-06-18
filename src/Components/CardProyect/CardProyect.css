@@ -1,0 +1,25 @@
+
+
+
+.card {
+    
+    align-items: center;
+}
+
+.card :hover {
+    
+    opacity: 80%;
+}
+
+.card img{
+    margin-top: 10px;
+    height: 200px;
+    width: 300px;
+}
+.card p{
+    width: 80%;
+    margin:auto;
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 18px;
+}
