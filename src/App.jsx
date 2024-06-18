@@ -11,12 +11,11 @@ function App() {
 
   return (
     <BrowserRouter>
-   
             <NavMenu  />
-              <Routes>
-                <Route exact path='/MyPersonalApp/' element={<Home/>}> </ Route>                  
-              </Routes>   
-        
+            <Home/>
+            <Routes>
+                <Route exact path='/MyPersonalPage/' element={<Home/>}> </ Route>                  
+            </Routes>   
     </BrowserRouter>
   )
 }
