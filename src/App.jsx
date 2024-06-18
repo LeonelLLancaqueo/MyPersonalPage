@@ -14,7 +14,7 @@ function App() {
    
             <NavMenu  />
               <Routes>
-                <Route exact path='/MyPersonalApp' element={<Home/>}> </ Route>                  
+                <Route exact path='/MyPersonalApp/' element={<Home/>}> </ Route>                  
               </Routes>   
         
     </BrowserRouter>
