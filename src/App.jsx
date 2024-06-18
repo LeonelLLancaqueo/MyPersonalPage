@@ -12,9 +12,8 @@ function App() {
   return (
     <BrowserRouter>
             <NavMenu  />
-            <Home/>
             <Routes>
-                <Route exact path='/' element={<Home/>}> </ Route>                  
+                <Route exact path='/MyPersonalPage/' element={<Home/>}> </ Route>                  
             </Routes>   
     </BrowserRouter>
   )
