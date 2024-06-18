@@ -1,7 +1,7 @@
 
 
 .contact-me-form {
-    margin-top: 20px;
+    margin: 20px 0px;
     padding: 20px;
     
     background-color:mediumaquamarine;
@@ -48,7 +48,13 @@
     opacity: 80%;
 }
 
+
 @media screen and (max-width: 1000px){
+    .contact-me-form {
+
+        width: 80%;
+        
+    }
     .contact-me-form div{
         margin-top: 20px;
         width: 60%;
@@ -60,4 +66,5 @@
     
         padding: 0px 10px;
     }
+    
 }
